@@ -4,7 +4,9 @@ Original browser game: a crowned monarch and a ring of royal bowmen hold a meado
 
 **Not affiliated with Century Games, Kingshot, or any store listing.** Art, names, and code are original. Mood references were used only for camera angle and “king + bowmen vs waves” fantasy — no cloned assets, logos, or branding.
 
-Play locally:
+**Play:** [https://iamfishr.github.io/crown-horde/](https://iamfishr.github.io/crown-horde/)
+
+Local:
 
 ```bash
 npm install
@@ -31,4 +33,9 @@ Vite + Three.js (TypeScript). Procedural low-poly meshes — no third-party char
 
 ## Deploy
 
-Static SPA. Vercel: import this GitHub repo, framework preset Vite, output `dist`.
+Static SPA (`vite build` → `dist`).
+
+- **GitHub Pages** (live): branch `gh-pages`
+- **Vercel:** CLI is not logged in on this machine. Import the repo into team `thisisganeshs-projects`:
+  [vercel.com/new](https://vercel.com/new) → import `IamFishR/crown-horde` (framework Vite, output `dist`). Direct import:
+  https://vercel.com/new/clone?repository-url=https://github.com/IamFishR/crown-horde
