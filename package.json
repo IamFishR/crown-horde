@@ -1,0 +1,20 @@
+{
+  "name": "crown-horde",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Crown Horde — original isometric Three.js horde defender. Not affiliated with Century Games.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
